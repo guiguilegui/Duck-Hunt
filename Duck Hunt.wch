@@ -1,0 +1,13 @@
+SystemID NES
+004C	b	u	0	RAM	Time Left
+004A	b	u	0	RAM	Direction
+020F	b	u	0	RAM	Square
+00BA	b	u	0	RAM	Shots left
+00AA	b	u	0	RAM	Nb of hitten ducks 
+00C4	w	h	1	RAM	Score
+03F0	b	h	0	RAM	Hitten Duck #1
+00C1	b	h	0	RAM	Level
+0403	b	h	0	RAM	Background color
+003B	b	u	0	RAM	Duck #
+00BE	b	h	0	RAM	
+
