@@ -59,7 +59,7 @@ g1 =
 		aspect.ratio = 224/256
 		
 	)+
-	ggtitle('Duck Size')
+	ggtitle("Duck Hitbox Size")
 
 
 # 1.3 Specific computations
@@ -188,6 +188,13 @@ filter(level >= 20) %>%
 {mean(.$Time)/60}
 
 
+
+
+
+
+# 4 Gather all figure
+
+# 4.1 Create plot
 plot_grid(
 	g2,
 	g3,
@@ -196,4 +203,5 @@ plot_grid(
 	align = "v"
 )
 
+# 4.2 Save plot
 ggsave('duckhuntreddit.png', width = 5.7, height = 15)
